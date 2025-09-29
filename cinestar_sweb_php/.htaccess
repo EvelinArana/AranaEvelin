@@ -1,0 +1,5 @@
+Options +FollowSymLinks
+Options All -Indexes
+
+RewriteEngine On
+RewriteRule ^(.*)$ sweb.php?url=$1 [L,NC]
